@@ -1,4 +1,4 @@
-function calc(){
+function ngitung(){
     var a = parseFloat(document.querySelector("#num1").value);
     var b = parseFloat(document.querySelector("#num2").value);
     var op = document.querySelector("#operator").value;

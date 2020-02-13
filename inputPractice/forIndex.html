@@ -9,9 +9,9 @@
 <body>
     <h1>Gay Calculator</h1>
 
-    1st Num = <input type="text" id="num1">
+    1st Num = <input type="number" id="num1">
     <br>
-    2nd Num = <input type="text" id="num2">
+    2nd Num = <input type="number" id="num2">
     <br>
     Operator:
     <select id="operator">
@@ -20,12 +20,12 @@
         <option value="multiply">Multiply</option>
         <option value="divide">Divide</option>
     </select>
-    <button type="button" onclick="calc()">Calculate </button>
+    <br>
+    <button type="button" onclick="ngitung()">Calculate</button>
     <br>
     <div id="result"></div>
-
+    <script> 
+        src="calculator.js"
+        </script>
 </body>
-<script> 
-    src="calculator.js"
-    </script>
 </html>
